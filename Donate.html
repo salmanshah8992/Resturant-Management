@@ -1,0 +1,163 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Donate.css">
+  <link rel="stylesheet" href="icon.css">
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>WFM</title>
+</head>
+
+<body>
+  <!-- nav start-->
+  <div class="navber">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="brand" href="index.html"> <img src="logoo.png" alt="WFM" height="50px" width="100px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+
+              <!-- fgh -->
+              <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Donate</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="resturent.html">Resturent Donate</a>
+                  <a href="food.html">Food Donate</a>
+                  <a href="share.html">Share Your Day</a>
+                </div>
+              </div>
+              <!-- ghg -->
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signin.html">join with us </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html">Team members</a>
+            </li>
+          </ul>
+        </div>
+        <div class="login">
+          <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+          <div id="id01" class="modal">
+
+            <form class="modal-content animate" action="/action_page.php" method="post">
+              <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                  title="Close Modal">&times;</span>
+                <img src="login.png" alt="Avatar" class="avatar">
+              </div>
+
+              <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit">Login</button>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+              </div>
+
+              <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                  class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </nav>
+  </div>
+
+  <!-- nav end-->
+  <h1 style="text-align: center; color: brown; padding: 30px;margin: 10px;">Donate for WFM</h1>
+  <h4 style="text-align: center;">" If you can’t feed a hundred people, then feed just one - Mother Teresa "</h4>
+  <p style="text-align: center;">In BANGLADESH, the household food waste estimate is 50 kg per capita per year, or
+    68,760,163 tonnes a year. Think twice before you waste donate for</p>
+
+  <footer class="footer">
+
+    <label for="f_name"><b>Name </b></label>
+    <input type="text" name="f_name" id="f_name" placeholder="Enter your name" required> <br>
+
+    <label for="mail"><b>E-mail </b></label>
+    <input type="text" name="mail" id="mail" placeholder="Enter your mail" required> <br>
+
+    <label f or="phone"><b>Phone Number:</b></label>
+    <input type="text" id="phone" placeholder="Enter Phone Number" name="phone" required><br>
+
+    <label for="amount"><b>Amount </b></label>
+    <input type="number" name="amount" id="amount" placeholder="Enter your amount" required> <br>
+
+    <label for="location"><b>location </b></label>
+    <input type="text" name="location" id="location" placeholder="Enter your location" required> <br>
+
+    <button type="submit" name="submit"><a href="index.html">Donate Now </a></button>
+    <br><br>
+
+    <h6>To help us be able to achieve our endeavour, we request you to support us in financial or physical terms. the
+      finances would go a long way in providing the infrastructure needed, the delivery vans, storage facility and
+      staffing.</h6>
+  </footer>
+
+  <!--icon  html start-->
+
+  <div class="social-menu">
+    <ul>
+      <li><a href=""><i class="fa fa-facebook"></i></a></li>
+      <li><a href=""><i class="fa fa-twitter"></i></a></li>
+      <li><a href=""><i class="fa fa-instagram"></i></a></li>
+      <li><a href=""><i class="fa fa-youtube"></i></a></li>
+      <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+    </ul>
+  </div>
+
+
+
+  <!--icon html end-->
+
+
+
+
+
+
+  <footer>
+
+    <!-- footer start-->
+
+    <div class="footer" style="text-align: center; font-size: 24px;">
+      Copyright © 2021 All Rights Reserved by Waste Food Management </div>
+
+
+
+
+    <!--footer end-->
+  </footer>
+
+
+</body>
+
+</html>

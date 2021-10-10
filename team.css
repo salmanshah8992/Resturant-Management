@@ -1,0 +1,29 @@
+.navber{
+    margin: 10px 50px;
+}
+/* .profile{
+   font-size: 40%;
+   font-weight: 800;
+   border-radius: 90%;
+   width: 20%;
+   padding: 50px 40px 40px 50px; 
+   margin: 20px 80px;
+ } */
+ .profile{
+    padding: 50px 40px 40px 50px; 
+    margin: 20px 80px;
+    width: 50%;
+    font-size: 40%;
+    font-weight: 800;
+ }
+ .footer{
+    margin: 40px;
+   text-align: center;
+ }
+ /* brand css start*/
+.brand{
+   padding-right:80px ;
+   padding-top: 6px;
+ }
+ 
+ /*brand css end*/

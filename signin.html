@@ -1,0 +1,168 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signin.css">
+  <link rel="stylesheet" href="Donate.css">
+  <link rel="stylesheet" href="icon.css">
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+<!-- nav start-->
+<div class="navber">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="brand" href="index.html"> <img src="logoo.png" alt="WFM" height="50px" width="100px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+
+            <!-- fgh -->
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">Donate</button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="resturent.html">Resturent Donate</a>
+                <a href="food.html">Food Donate</a>
+                <a href="share.html">Share Your Day</a>
+              </div>
+            </div>
+            <!-- ghg -->
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signin.html">join with us </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team.html">Team members</a>
+          </li>
+        </ul>
+      </div>
+      <div class="login">
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+        <div id="id01" class="modal">
+
+          <form class="modal-content animate" action="login.php" method="post">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                title="Close Modal">&times;</span>
+              <img src="login.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+              <label for="phone"><b>Username</b></label>
+              <input type="text" placeholder="Enter Phone or Email" name="phone" required>
+
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+
+              <button type="submit" name="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </nav>
+</div>
+
+<!-- nav end-->
+
+<h2> Sign Up</h2>
+<hr>
+
+<form action="signin.php" method="POST" class="form">
+
+  <label for="f_name"><b>Name :</b></label>
+  <input type="text" name="f_name" id="f_name" placeholder="Enter your name" required> <br>
+
+  <label for="phone"><b>Phone No Or Email:</b></label>
+  <input type="text" id="phone" placeholder="Enter Phone Or Email" name="phone" required><br>
+
+  <label for="psw"><b>Password:</b></label>
+  <input type="password" id="psw" placeholder=" Enter Password" name="psw" required><br>
+  <div class="clearfix">
+
+    <button type="submit" name="submit" class="signinbtn"><a href="index.html">Register</a></button>
+    <br><br>
+  </div>
+
+</form>
+
+
+
+<!-- <div>
+  <h5 >Do you have no account ?<a href="signup.html" >Do sign in </a></h5>
+</div>  -->
+
+</form>
+</div>
+<footer>
+
+  <!-- footer start-->
+
+  <!--icon  html start-->
+
+  <div class="social-menu">
+    <ul>
+      <li><a href=""><i class="fa fa-facebook"></i></a></li>
+      <li><a href=""><i class="fa fa-twitter"></i></a></li>
+      <li><a href=""><i class="fa fa-instagram"></i></a></li>
+      <li><a href=""><i class="fa fa-youtube"></i></a></li>
+      <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+    </ul>
+  </div>
+
+
+
+  <!--icon html end-->
+
+
+
+
+
+
+  <footer>
+
+    <!-- footer start-->
+
+    <div class="footer">
+      Copyright © 2021 All Rights Reserved by Waste Food Management </div>
+
+
+
+
+    <!--footer end-->
+  </footer>
+
+  <!--footer end-->
+</footer>
+
+</body>
+
+</html>

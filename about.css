@@ -1,0 +1,23 @@
+.about{
+    color: brown;
+    text-align: center;
+    padding: 30px ;
+    margin: 10px;
+}
+.details{
+    margin: 20px;
+    padding: 10px;
+}
+.navber{
+    margin: 10px 50px;
+}
+.footer{
+    text-align: center;
+  }
+  /* brand css start*/
+.brand{
+    padding-right:80px ;
+    padding-top: 6px;
+  }
+  
+  /*brand css end*/
